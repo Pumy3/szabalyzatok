@@ -1,0 +1,5 @@
+*.doc
+*.docx
+*synctex.gz
+*.log
+*.aux
