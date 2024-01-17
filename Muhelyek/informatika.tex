@@ -1,5 +1,11 @@
 \documentclass{../styles/rulebook}
 
+\usepackage{lmodern}
+
+\frenchspacing
+\titlespacing{\section}{0pt}{8ex}{5ex}
+\setlist[enumerate,1]{label={(\arabic*}), itemindent=\labelwidth,  leftmargin=0pt , ref=\arabic*, labelsep=9pt}
+
 \begin{document}
 \section*{ELTE Eötvös József Collegium \\ Informatikai Műhely\\ \vspace{0.5em} Műhelyszabályzat} 
 
@@ -8,7 +14,7 @@
 \section*{Preambulum}
 
 Az Informatikai Műhely (a továbbiakban: Műhely) az Eötvös Loránd Tudományegyetem (a továbbiakban: ELTE) Eötvös József Collegiumának (a továbbiakban: Collegium) szakmai és hallgatói közössége.
-A Collegium nagymúltú hagyományainak, célkitűzéseinek megfelelően, a 2004-ben alapított Műhely a tudós, önálló kutatásaikkal is kitűnő, hivatásukat szerető és szívvel-lélekkel végző informatikusok képzését, tehetséggondozását tekinti feladatának. A Műhely annak a felismerésnek a szellemében fogant, miszerint a XXI. századi informatikus képzésben feltétlenül szükséges a legújabb elméleti és gyakorlati eredmények megismerése és a modern informatika egységes, átfogó ismerete.
+A Collegium nagy múltú hagyományainak, célkitűzéseinek megfelelően, a 2004-ben alapított Műhely a tudós, önálló kutatásaikkal is kitűnő, hivatásukat szerető és szívvel-lélekkel végző informatikusok képzését, tehetséggondozását tekinti feladatának. A Műhely annak a felismerésnek a szellemében fogant, miszerint a XXI. századi informatikus képzésben feltétlenül szükséges a legújabb elméleti és gyakorlati eredmények megismerése és a modern informatika egységes, átfogó ismerete.
 
 \section{Célkitűzések}
 
@@ -18,7 +24,7 @@ A Collegium nagymúltú hagyományainak, célkitűzéseinek megfelelően, a 2004
 		\item műhelykurzusok meghirdetésével a műhelytagok eredeti képzésének kiegészítése;
 		\item kutatószeminárium szervezése, ahol a Műhelytagok megismerhetik egymás kutatásait, és támogatást kaphatnak sajátjukhoz.
 	\end{enumerate}
-	\item Összetartó, együttműködő közösség kialakítása.
+	\item Továbbá összetartó, együttműködő közösség kialakítása.
 \end{enumerate}
 
 \section{A Műhely tagjai}
@@ -30,8 +36,8 @@ A Collegium nagymúltú hagyományainak, célkitűzéseinek megfelelően, a 2004
 	\end{enumerate}
 	\item A műhelytagok felvételének részleteiről a Collegium felsőbb szabályzatai rendelkeznek az alábbi kiegészítésekkel:
 	\begin{enumerate}
-		\item a szakmai bizottságnak a Műhely vezetője (vagy megbízottja) mellett tagja a műhelytitkár, a további tagokat a Műhely vezetője kéri fel;
-		\item a Collegium általános felvételi eljárását a Műhely egy írásbeli, szakmai feladatsorral egészíti ki, melynek megírására a szakmai elbeszélgetések előtt kerül sor, és eredménye elsősorban a szakmai bizottság munkáját segíti.
+		\item a szakmai bizottságnak a Műhely vezetője (vagy megbízottja) mellett tagja a műhelytitkár (akadályoztatása esetén más, a műhelyvezető által felkért műhelytag), a további tagokat a Műhely vezetője kéri fel;
+		\item a Collegium általános felvételi eljárását a Műhely egy írásbeli, szakmai feladatsorral egészítheti ki, melynek megírására a szakmai elbeszélgetések előtt kerül sor, és eredménye elsősorban a szakmai bizottság munkáját segíti.
 	\end{enumerate}
 	\item A műhelytagság megszűnik:
 	\begin{enumerate}
@@ -44,97 +50,86 @@ A Collegium nagymúltú hagyományainak, célkitűzéseinek megfelelően, a 2004
 
 \section{A Műhely tanulmányi rendje}
 
+
 \begin{enumerate}
+\item Amennyiben a szabályzat a továbbiakban nem köt ki mást, úgy az egyetemi év a képzésen aktív évek száma, mesterszak esetén pedig az alapképzéssel együtt számolandó. A Collegiumba nem első egyetemi félévükben felvettekre a követelmények a felvétel félévétől várhatóak el.
 \item A Műhely tanulmányi rendjével törekszik a műhelytagok kiemelkedő szakmai és tudományos tevékenységét segíteni és ösztönözni.
 \item A műhelytagok tanulmányi és szakmai kötelességei:
 	\begin{enumerate}
-		\item A Műhely által szervezett kurzusok közül legalább egyet minden félévben teljesíteni kell.
+		\item Minden félévben a műhely által meghatározott tárgykínálatnak megfelelően kell tárgyat vagy tárgyakat elvégezniük.
+		\item Pályázniuk kell a kari \emph{Neumann János Tehetséggondozó Kör}be, amennyiben jogosultak rá.
 		\item A műhelytagoknak
 			\begin{enumerate}
-				\item az első félévükben 
-					\begin{itemize}
-						\item a műhely által számukra felkínált kurzusok közül kell legalább egyet teljesíteniük;
-						\item pályázniuk kell a kari \emph{Neumann János Tehetséggondozó Kör}be.
-					\end{itemize}
-				\item a második félévükben
-					\begin{itemize}
-						\item a Modern elméletek az informatikában I. tárgyat kell elvégezniük.
-					\end{itemize}
-				\item a harmadik félévükben 
-					\begin{itemize}
-						\item a Modern elméletek az informatikában II. tárgyat kell elvégezniük (ha még nem végezték el);
-						\item részt kell venniük a Műhely által meghirdetett kutatószemináriumon.
-					\end{itemize}
-				\item a negyedik és az utána következő félévjeikben 
-					\begin{itemize}
-						\item részt kell venniük a Műhely által meghirdetett kutatószemináriumon, melyen előadást is kell tartaniuk;
-						\item kutató vagy projekt munkát kell minden félév során végezniük. Erről minden félévnyitó műhelygyűlésig a Műhely vezetőjének a témavezető által aláírt igazolást szükséges benyújtani.
-					\end{itemize}
+				\item a második egyetemi év végéig legalább két félévben kutató- vagy projektmunkát kell végezniük egy felsőbb éves mentor vagy témavezető támogatásával.
+				\item a harmadik és az utána következő egyetemi éveikben kutató- vagy projektmunkát kell végezniük.
+				\item félév végi írásbeli beszámolóban röviden ismertetniük kell a félévben végzett szakmai, tudományos és tanulmányi tevékenységeiket, illetve a jövőbeli terveiket.
 			\end{enumerate}
-		\item Minden műhelytagnak a harmadik év végéig \emph{Tudományos Diákköri Konferencián} kell részt vennie.
+		\item Minden műhelytagnak a harmadik egyetemi év végéig \emph{Tudományos Diákköri Konferencián} részt kell vennie.
 	\end{enumerate}
 \item A műhelytagoknak törekedniük kell
 	\begin{enumerate}
-		\item \emph{Nemzeti Felsőoktatási Ösztöndíj} elnyerésére;
+		\item \emph{Tudományos Diákköri Konferencián} előadás bemutatására;
+		\item a \emph{Nemzeti Felsőoktatási Ösztöndíj} és az \emph{Új Nemzeti Kiválósági Program} ösztöndíjának elnyerésére;
 		\item tudományos/szakmai pályázatokban való részvételre;
 		\item konferenciákon való részvételre, publikálásra;
 		\item szakmai versenyeken való eredményes szereplésre;
-		\item collegiumi óratartásra, óraszervezésre, kari demonstrátori tevékenység folytatására, különös tekintettel a Műhely által szervezett kurzusokra a Collegium más műhelyeinek tagjai, illetve a Műhely elsőévesei számára.
-		\item a Collegium szakmai programjain, konferenciáin való részvételre, mind hallgatóként, mind előadóként.
+		\item kari demonstrátori tevékenység folytatására;
+		\item collegiumi óratartásra, óraszervezésre;
+		\item a Collegium szakmai programjain, konferenciáin való részvételre, mind hallgatóként, mind előadóként;
+		\item igény esetén alsóbb évesek mentorálására;
+		\item a Collegium informatikai rendszerének fejlesztésére.
 	\end{enumerate}
-\item A műhely mentorrendszerrel segíti az elsőéves hallgatókat a tanulmányaikban, illetve collegiumi beilleszkedésükben.
+\item A műhely mentorrendszerrel segíti az első és második egyetemi éves műhelytagok szakmai előrehaladását és a collegiumi életbe való becsatlakozását.
 	\begin{enumerate}
-		\item A őszi félév első műhelygyűlésén minden elsőéves hallgatóhoz rendelni kell egy felsőbbéves műhelytagot, aki a mentora lesz.
-		\item A mentorok a mentoráltjukat
-			\begin{itemize} 
-				\item aktívan hívják a collegiumi közösségi rendezvényekre;
-				\item segítik az adminisztratív teendőkben;
-				\item igény esetén a tanulmányaikban segítik (közvetlen vagy közvetett módon).
-			\end{itemize}
-		\item A mentorok figyelemmel kísérik a mentoráltjuk tanulmányi előrehaladását, az első collegiumi évük után segítik a számukra megfelelő kutatási téma megválasztásában.
+		\item Az őszi félév első műhelygyűlésén minden egyetemi első- és másodéves hallgatóhoz rendelni kell egy-egy felsőbb éves műhelytagot, aki a mentora lesz.
+		\item Egy mentornak legfeljebb két mentoráltja lehet.
+		\item A mentorok figyelemmel kísérik a mentoráltjuk szakmai előrehaladását, az első collegiumi évük után segítik a számukra megfelelő kutatási téma vagy projekt megválasztását.
+		\item A mentoráltak kéthetente beszámolnak tanulmányi előrehaladásukról a mentoruknak.
+		\item A mentorok a félév végén beszámolnak a műhelyvezetőnek a mentoráltjaik eredményeiről.
 	\end{enumerate}
 \end{enumerate}
 
 \section{A műhelygyűlés}
+\label{par:muhelygyules}
 
 \begin{enumerate}
 	\item A műhelygyűlés célja a Műhely vezetője, titkára és tagjai közötti egyeztetésnek keretet adni.
-	\item Félévnyitó műhelygyűlésre kerül sor a félév első vagy második hetén. Célja az újonnan felvett hallgatók megismerése, az előző félév munkájának összefoglalása, valamint a jövő félév programjának megbeszélése.
-	\item A műhelygyűlésen a Műhely tagjai kötelesek részt venni.
-	\item A műhelytagok a műhelygyűlésen kötelesek röviden beszámolni az előző műhelygyűlés óta eltelt időszakban végzett szakmai, tudományos és tanulmányi tevékenységükről, illetve a jövőbeli terveikről.
-	\item A Műhely vezetője jogosult rendkívüli műhelygyűlés összehívására.
-	\item A műhelygyűlés jelöli ki az elsőéves hallgatók számára kitűzött kurzuskínálatot.
+	\item Félévnyitó műhelygyűlésre kerül sor a regisztrációs időszakban vagy a szorgalmi időszak első vagy második hetében. Célja az újonnan felvett hallgatók megismerése, valamint a félév programjának megbeszélése.
+	\item Félévzáró műhelygyűlésre a szorgalmi időszak utolsó előtti vagy utolsó hetében vagy a vizsgaidőszakban kerül sor. Célja a félév munkájának összefoglalása, a következő félév megtervezése.
+	\item A műhelygyűlésen a Műhely tagjai kötelesek részt venni. Távolmaradás csak indokolt esetben, a műhelyvezetővel egyeztetve történhet.
+	\item A Műhely vezetőjének, valamely tagjának vagy az igazgatónak kérésére rendkívüli műhelygyűlést kell összehívni a kérés beérkezését következő 14 napon belül. \label{bek:rendkivuliMuhelygyules}
 \end{enumerate}
 
 \section{A műhelytitkár}
+
 \begin{enumerate}
 	\item A műhelytitkár a következő feladatokat látja el:
 	\begin{enumerate}
 		\item kapcsolattartás a Műhely vezetője és tagjai, a Collegium tisztségviselői és szervei, valamint más intézmények között;
 		\item a műhelytagok szakmai és tanulmányi eredményeinek követése;
-		\item a Műhely képviselete a Collegium e célra szervezett fórumain, elsődlegesen a Tudományos Bizottság kiterjesztett ülésein;
-		\item a műhelygyűléseken jegyzőkönyvek készítése, valamint e jegyzőkönyv továbbítása a Műhely vezetője, és tagjai részére;
+		\item a Műhely képviselete a Collegium e célra szervezett fórumain;
 		\item a Műhely rendezvényeinek és tevékenységeinek megszervezése, illetőleg a szervezés koordinációja;
-		\item a Műhely féléves beszámolójának megírása;
 		\item az aktuális pályázati lehetőségek figyelemmel követése, továbbítása a műhelytagok felé.
 	\end{enumerate}
-	\item Műhelytitkár a Műhely felsőéves tagja lehet.
-	\item A műhelytitkárt valamennyi őszi félévnyitó műhelygyűlésen a Műhely tagjai jelölés után a jelöltek közül egyszerű többséggel választják.
+	\item Műhelytitkár a Műhely felsőbb éves tagja lehet.
+	\item A műhelytitkárt az őszi félévnyitó műhelygyűlésen a Műhely tagjai jelölés után a jelöltek közül egyszerű többséggel választják.
 	\begin{enumerate}
-	    \item  A műhelytitkár kinevezése rendesen egy évre szól.
+		\item A műhelytitkár kinevezése rendesen egy évre szól.
 		\item A műhelytitkárt azonnali hatállyal felmentheti pozíciójából a Műhely vezetője, amennyiben megítélése szerint a rá bízott feladatait képtelen ellátni.
 		\item A műhelytitkárnak joga van felmentését kérni a Műhely vezetőjétől, amennyiben javaslatot tesz számára a következő műhelytitkár személyére.
 	\end{enumerate}
 	\item A műhelytitkár törekedjen arra, hogy a Műhely tagsága szervezzen az informatikát népszerűsítő és/vagy alapszintű informatika tudást átadó kurzusokat, foglalkozásokat más műhelyek tagjainak részére, illetve középiskolások számára (pl. kari nyílt napokon, kutatók éjszakáján).
+	\item A műhelytitkári pozíció rendkívüli megüresedése esetén rendkívüli műhelygyűlést kell összehívni \aref{par:muhelygyules}. § (\ref{bek:rendkivuliMuhelygyules}) bekezdés alapján, ahol ügyvivő műhelytitkárt kell választani a következő őszi félévnyitó műhelygyűlésig, a műhelytitkár-választás menetének megfelelően. Az ügyvivő műhelytitkár átveszi a műhelytitkár feladatait és jogköreit.
+
 \end{enumerate}
 
-\section{Zárórendelkezések}
+\section{Záró rendelkezések}
 
 \begin{enumerate}
 	\item Jelen szabályzat megfogalmazására a CTSzK 4. § (8) bekezdése alapján kapott felhatalmazást a Műhely.
 	\item Jelen Szabályzat új műhelyszabályzat elfogadásáig érvényes.
 	\begin{enumerate}
-		\item Új műhelyszabályzat megalkotását a Műhely vezetője, a műhelytitkár, valamint a Műhely tagjai kezdeményezhetik. A műhelyszabályzat és módosítások elfogadására a félévnyitó műhelygyűlésen kerülhet sor, a Műhely vezetőjét, titkárát és tagjait is meghallgató érdemi vitát követően egyhangú szavazás útján.
+		\item Új műhelyszabályzat megalkotását a Műhely vezetője, a műhelytitkár, valamint a Műhely tagjai kezdeményezhetik. A műhelyszabályzat és módosítások elfogadására műhelygyűlésen kerülhet sor, a Műhely vezetőjét, titkárát és tagjait is meghallgató érdemi vitát követően egyhangú szavazás útján.
 		\item A Szabályzat elfogadására a CTSzK 4. § (8) bekezdése alapján, a műhelygyűlés javaslatára, a Collegium igazgatója jogosult.
 	\end{enumerate}
 	\item A műhelyszabályzatban nem szabályozott kérdések tekintetében a CTSzK vagy az ELTE Hallgatói Követelményrendszer az irányadó.
@@ -144,12 +139,12 @@ A Collegium nagymúltú hagyományainak, célkitűzéseinek megfelelően, a 2004
 \end{enumerate}
 
 \vspace{0.3in}
-Budapest, 2021. május 20.
+Budapest, 2023. november 29.
 \vspace{0.6in}
 
 \begin{minipage}{3in}
 \begin{center}
-Kozsik Tamás\\
+Dr. Lócsi Levente\\
 műhelyvezető
 \end{center}
 \end{minipage}
